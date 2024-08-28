@@ -16,23 +16,22 @@ import org.testng.annotations.Test;
 
 import dsalgoPOM.HomePage;
 import dsalgoPOM.SigninPage;
-import utilities.ConfigReader;
 import utilities.DriverManager;
 
 public class SigninTests {
 
-	WebDriver driver;
-    ConfigReader configReader = new ConfigReader();
-    WebDriverWait wait;
-    SigninPage signInPage;
-    HomePage homepage;
+	 private WebDriver driver;
+	    private WebDriverWait wait;
+	    private SigninPage signInPage;
+	    private HomePage homepage;
 
-    @BeforeClass
-    public void setup() {
-        driver = DriverManager.getDriver();
-        signInPage = new SigninPage(driver);
-        homepage = new HomePage(driver);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    @BeforeClass
+	    public void setup() {
+	        driver = DriverManager.getDriver();
+	        signInPage = new SigninPage(driver);
+	        homepage = new HomePage(driver);
+	        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    }
     }
 
     @BeforeMethod

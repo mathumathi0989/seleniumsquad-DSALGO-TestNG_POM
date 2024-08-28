@@ -17,7 +17,7 @@ public class BaseTest {
 	    @BeforeMethod
 	    public void setUp(String browser) {
 	        DriverManager.initializeDriver(browser);
-	        driver = DriverManager.getDriver();
+	        driver = DriverManager.getDriver(); // Use class-level driver
 	        driver.get(ConfigReader.getProperty("url"));
 	    }
 

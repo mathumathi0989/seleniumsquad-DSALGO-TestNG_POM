@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="7" passed="0" failed="0" skipped="7">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-28T19:08:31 IST" name="Registration Tests Suite" finished-at="2024-08-28T19:08:31 IST" duration-ms="410">
+  <suite started-at="2024-08-28T22:42:49 IST" name="Registration Tests Suite" finished-at="2024-08-28T22:42:49 IST" duration-ms="397">
     <groups>
     </groups>
-    <test started-at="2024-08-28T19:08:31 IST" name="Registration Tests" finished-at="2024-08-28T19:08:31 IST" duration-ms="410">
+    <test started-at="2024-08-28T22:42:49 IST" name="Registration Tests" finished-at="2024-08-28T22:42:49 IST" duration-ms="397">
       <class name="tests.SigninTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="setup" finished-at="2024-08-28T19:08:31 IST" duration-ms="15" status="FAIL">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="setup" finished-at="2024-08-28T22:42:49 IST" duration-ms="18" status="FAIL">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[WebDriver is not initialized. Please call initializeDriver() first.]]>
@@ -48,11 +48,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="navigateToSignInPage" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="navigateToSignInPage" finished-at="2024-08-28T22:42:49 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToSignInPage -->
-        <test-method signature="testSignInWithBlankPassword()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="testSignInWithBlankPassword" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testSignInWithBlankPassword()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="testSignInWithBlankPassword" finished-at="2024-08-28T22:42:49 IST" duration-ms="1" status="SKIP">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[WebDriver is not initialized. Please call initializeDriver() first.]]>
@@ -93,11 +93,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignInWithBlankPassword -->
-        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="navigateToSignInPage" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="navigateToSignInPage" finished-at="2024-08-28T22:42:49 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToSignInPage -->
-        <test-method signature="testSignInWithBlankUsername()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="testSignInWithBlankUsername" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testSignInWithBlankUsername()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="testSignInWithBlankUsername" finished-at="2024-08-28T22:42:49 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[WebDriver is not initialized. Please call initializeDriver() first.]]>
@@ -138,11 +138,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignInWithBlankUsername -->
-        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="navigateToSignInPage" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="navigateToSignInPage" finished-at="2024-08-28T22:42:49 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToSignInPage -->
-        <test-method signature="testSignInWithBlankUsernameAndPassword()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="testSignInWithBlankUsernameAndPassword" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testSignInWithBlankUsernameAndPassword()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="testSignInWithBlankUsernameAndPassword" finished-at="2024-08-28T22:42:49 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[WebDriver is not initialized. Please call initializeDriver() first.]]>
@@ -183,11 +183,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignInWithBlankUsernameAndPassword -->
-        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="navigateToSignInPage" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="navigateToSignInPage" finished-at="2024-08-28T22:42:49 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToSignInPage -->
-        <test-method signature="testSignInWithInvalidUsernameAndPassword()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="testSignInWithInvalidUsernameAndPassword" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testSignInWithInvalidUsernameAndPassword()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="testSignInWithInvalidUsernameAndPassword" finished-at="2024-08-28T22:42:49 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[WebDriver is not initialized. Please call initializeDriver() first.]]>
@@ -228,11 +228,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignInWithInvalidUsernameAndPassword -->
-        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="navigateToSignInPage" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="navigateToSignInPage" finished-at="2024-08-28T22:42:49 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToSignInPage -->
-        <test-method signature="testSignInWithInvalidUsernameAndValidPassword()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="testSignInWithInvalidUsernameAndValidPassword" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testSignInWithInvalidUsernameAndValidPassword()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="testSignInWithInvalidUsernameAndValidPassword" finished-at="2024-08-28T22:42:49 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[WebDriver is not initialized. Please call initializeDriver() first.]]>
@@ -273,11 +273,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignInWithInvalidUsernameAndValidPassword -->
-        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="navigateToSignInPage" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="navigateToSignInPage" finished-at="2024-08-28T22:42:49 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToSignInPage -->
-        <test-method signature="testSignInWithValidUsernameAndInvalidPassword()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="testSignInWithValidUsernameAndInvalidPassword" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testSignInWithValidUsernameAndInvalidPassword()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="testSignInWithValidUsernameAndInvalidPassword" finished-at="2024-08-28T22:42:49 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[WebDriver is not initialized. Please call initializeDriver() first.]]>
@@ -318,11 +318,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignInWithValidUsernameAndInvalidPassword -->
-        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="navigateToSignInPage" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="navigateToSignInPage()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="navigateToSignInPage" finished-at="2024-08-28T22:42:49 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToSignInPage -->
-        <test-method signature="testSignInWithValidUsernameAndPassword()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T19:08:31 IST" name="testSignInWithValidUsernameAndPassword" finished-at="2024-08-28T19:08:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="testSignInWithValidUsernameAndPassword()[pri:0, instance:tests.SigninTests@38234a38]" started-at="2024-08-28T22:42:49 IST" name="testSignInWithValidUsernameAndPassword" finished-at="2024-08-28T22:42:49 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[WebDriver is not initialized. Please call initializeDriver() first.]]>
