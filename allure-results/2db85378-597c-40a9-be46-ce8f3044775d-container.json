@@ -1,0 +1,1 @@
+{"uuid":"2db85378-597c-40a9-be46-ce8f3044775d","name":"dsalgoPOM.BaseTest.setUp","children":["f4b2ffad-fe65-45d7-87af-64c3a3d28ea6"],"description":"","befores":[{"name":"setUp","status":"broken","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1724911663244,"stop":1724911663244}],"afters":[],"start":1724911663244,"stop":1724911663244}

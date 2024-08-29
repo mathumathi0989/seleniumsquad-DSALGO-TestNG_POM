@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Registration_Tests_Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Registration Tests Suite</span>
+              <span class="suite-name border-failed">Registration Tests Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,51 +92,100 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,  7 skipped,  </span>
+                    <span class="method-stats">15 methods, 1 failed,   14 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Registration_Tests_Suite" class="hide-methods skipped suite-Registration_Tests_Suite"> (hide)</a> <!-- hide-methods skipped suite-Registration_Tests_Suite -->
-                      <a href="#" panel-name="suite-Registration_Tests_Suite" class="show-methods skipped suite-Registration_Tests_Suite"> (show)</a> <!-- show-methods skipped suite-Registration_Tests_Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Registration_Tests_Suite" class="hide-methods failed suite-Registration_Tests_Suite"> (hide)</a> <!-- hide-methods failed suite-Registration_Tests_Suite -->
+                      <a href="#" panel-name="suite-Registration_Tests_Suite" class="show-methods failed suite-Registration_Tests_Suite"> (show)</a> <!-- show-methods failed suite-Registration_Tests_Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Registration_Tests_Suite">
+                    <div class="method-list-content failed suite-Registration_Tests_Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.RegisterTests" class="method navigator-link" hash-for-method="testUserRegistration(http://dsportalapp.herokuapp.com/, nuhasdfnh, tzynumhim)">testUserRegistration(http://dsportalapp.herokuapp.com/, nuhasdfnh, tzynumhim)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Registration_Tests_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Registration_Tests_Suite" class="hide-methods passed suite-Registration_Tests_Suite"> (hide)</a> <!-- hide-methods passed suite-Registration_Tests_Suite -->
+                      <a href="#" panel-name="suite-Registration_Tests_Suite" class="show-methods passed suite-Registration_Tests_Suite"> (show)</a> <!-- show-methods passed suite-Registration_Tests_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Registration_Tests_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.SigninTests" class="method navigator-link" hash-for-method="testSignInWithBlankPassword">testSignInWithBlankPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.SigninTests" class="method navigator-link" hash-for-method="testSignInWithBlankUsername">testSignInWithBlankUsername</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.SigninTests" class="method navigator-link" hash-for-method="testSignInWithBlankUsernameAndPassword">testSignInWithBlankUsernameAndPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.SigninTests" class="method navigator-link" hash-for-method="testSignInWithInvalidUsernameAndPassword">testSignInWithInvalidUsernameAndPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.SigninTests" class="method navigator-link" hash-for-method="testSignInWithInvalidUsernameAndValidPassword">testSignInWithInvalidUsernameAndValidPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.SigninTests" class="method navigator-link" hash-for-method="testSignInWithValidUsernameAndInvalidPassword">testSignInWithValidUsernameAndInvalidPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.SigninTests" class="method navigator-link" hash-for-method="testSignInWithValidUsernameAndPassword">testSignInWithValidUsernameAndPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Registration_Tests_Suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.StackTests" class="method navigator-link" hash-for-method="verifyInvalidPythonCodeExecutionInStackTryEditor">verifyInvalidPythonCodeExecutionInStackTryEditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.StackTests" class="method navigator-link" hash-for-method="verifyUserCanAccessTryEditorInOperationsInStack">verifyUserCanAccessTryEditorInOperationsInStack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.StackTests" class="method navigator-link" hash-for-method="verifyUserCanNavigateToApplicationsPage">verifyUserCanNavigateToApplicationsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.StackTests" class="method navigator-link" hash-for-method="verifyUserCanNavigateToImplementationPage">verifyUserCanNavigateToImplementationPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.StackTests" class="method navigator-link" hash-for-method="verifyUserCanNavigateToOperationsInStack">verifyUserCanNavigateToOperationsInStack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.StackTests" class="method navigator-link" hash-for-method="verifyUserCanNavigateToPracticeQuestionsPage">verifyUserCanNavigateToPracticeQuestionsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Registration_Tests_Suite" title="tests.StackTests" class="method navigator-link" hash-for-method="verifyValidPythonCodeExecutionInStackTryEditor">verifyValidPythonCodeExecutionInStackTryEditor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Registration_Tests_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -148,9 +197,87 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Registration_Tests_Suite" class="panel Registration_Tests_Suite">
-          <div class="suite-Registration_Tests_Suite-class-skipped">
+          <div class="suite-Registration_Tests_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
+              <span class="class-name">tests.RegisterTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserRegistration(http://dsportalapp.herokuapp.com/, nuhasdfnh, tzynumhim)">
+                  </a> <!-- testUserRegistration(http://dsportalapp.herokuapp.com/, nuhasdfnh, tzynumhim) -->
+                  <span class="method-name">testUserRegistration</span>
+                  <span class="parameters">(http://dsportalapp.herokuapp.com/,nuhasdfnh,tzynumhim)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [New Account Created. You are logged in as nuhasdfnh] but found [password_mismatch:The two password fields didn’t match.]
+	at tests.RegisterTests.testUserRegistration(RegisterTests.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Registration_Tests_Suite-class-failed -->
+          <div class="suite-Registration_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.StackTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidPythonCodeExecutionInStackTryEditor">
+                  </a> <!-- verifyInvalidPythonCodeExecutionInStackTryEditor -->
+                  <span class="method-name">verifyInvalidPythonCodeExecutionInStackTryEditor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserCanAccessTryEditorInOperationsInStack">
+                  </a> <!-- verifyUserCanAccessTryEditorInOperationsInStack -->
+                  <span class="method-name">verifyUserCanAccessTryEditorInOperationsInStack</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserCanNavigateToApplicationsPage">
+                  </a> <!-- verifyUserCanNavigateToApplicationsPage -->
+                  <span class="method-name">verifyUserCanNavigateToApplicationsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserCanNavigateToImplementationPage">
+                  </a> <!-- verifyUserCanNavigateToImplementationPage -->
+                  <span class="method-name">verifyUserCanNavigateToImplementationPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserCanNavigateToOperationsInStack">
+                  </a> <!-- verifyUserCanNavigateToOperationsInStack -->
+                  <span class="method-name">verifyUserCanNavigateToOperationsInStack</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserCanNavigateToPracticeQuestionsPage">
+                  </a> <!-- verifyUserCanNavigateToPracticeQuestionsPage -->
+                  <span class="method-name">verifyUserCanNavigateToPracticeQuestionsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidPythonCodeExecutionInStackTryEditor">
+                  </a> <!-- verifyValidPythonCodeExecutionInStackTryEditor -->
+                  <span class="method-name">verifyValidPythonCodeExecutionInStackTryEditor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Registration_Tests_Suite-class-passed -->
+          <div class="suite-Registration_Tests_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">tests.SigninTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -159,12 +286,6 @@
                   <a name="testSignInWithBlankPassword">
                   </a> <!-- testSignInWithBlankPassword -->
                   <span class="method-name">testSignInWithBlankPassword</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: WebDriver is not initialized. Please call initializeDriver() first.
-	at utilities.DriverManager.getDriver(DriverManager.java:35)
-	at tests.SigninTests.setup(SigninTests.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -172,12 +293,6 @@
                   <a name="testSignInWithBlankUsername">
                   </a> <!-- testSignInWithBlankUsername -->
                   <span class="method-name">testSignInWithBlankUsername</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: WebDriver is not initialized. Please call initializeDriver() first.
-	at utilities.DriverManager.getDriver(DriverManager.java:35)
-	at tests.SigninTests.setup(SigninTests.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -185,12 +300,6 @@
                   <a name="testSignInWithBlankUsernameAndPassword">
                   </a> <!-- testSignInWithBlankUsernameAndPassword -->
                   <span class="method-name">testSignInWithBlankUsernameAndPassword</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: WebDriver is not initialized. Please call initializeDriver() first.
-	at utilities.DriverManager.getDriver(DriverManager.java:35)
-	at tests.SigninTests.setup(SigninTests.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -198,12 +307,6 @@
                   <a name="testSignInWithInvalidUsernameAndPassword">
                   </a> <!-- testSignInWithInvalidUsernameAndPassword -->
                   <span class="method-name">testSignInWithInvalidUsernameAndPassword</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: WebDriver is not initialized. Please call initializeDriver() first.
-	at utilities.DriverManager.getDriver(DriverManager.java:35)
-	at tests.SigninTests.setup(SigninTests.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -211,12 +314,6 @@
                   <a name="testSignInWithInvalidUsernameAndValidPassword">
                   </a> <!-- testSignInWithInvalidUsernameAndValidPassword -->
                   <span class="method-name">testSignInWithInvalidUsernameAndValidPassword</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: WebDriver is not initialized. Please call initializeDriver() first.
-	at utilities.DriverManager.getDriver(DriverManager.java:35)
-	at tests.SigninTests.setup(SigninTests.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -224,12 +321,6 @@
                   <a name="testSignInWithValidUsernameAndInvalidPassword">
                   </a> <!-- testSignInWithValidUsernameAndInvalidPassword -->
                   <span class="method-name">testSignInWithValidUsernameAndInvalidPassword</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: WebDriver is not initialized. Please call initializeDriver() first.
-	at utilities.DriverManager.getDriver(DriverManager.java:35)
-	at tests.SigninTests.setup(SigninTests.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -237,16 +328,10 @@
                   <a name="testSignInWithValidUsernameAndPassword">
                   </a> <!-- testSignInWithValidUsernameAndPassword -->
                   <span class="method-name">testSignInWithValidUsernameAndPassword</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: WebDriver is not initialized. Please call initializeDriver() first.
-	at utilities.DriverManager.getDriver(DriverManager.java:35)
-	at tests.SigninTests.setup(SigninTests.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Registration_Tests_Suite-class-skipped -->
+          </div> <!-- suite-Registration_Tests_Suite-class-passed -->
         </div> <!-- panel Registration_Tests_Suite -->
         <div panel-name="test-xml-Registration_Tests_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -260,7 +345,9 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Registration Tests&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;tests.RegisterTests&quot;/&gt;
       &lt;class name=&quot;tests.SigninTests&quot;/&gt;
+      &lt;class name=&quot;tests.StackTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Registration Tests --&gt;
 &lt;/suite&gt; &lt;!-- Registration Tests Suite --&gt;
@@ -274,7 +361,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Registration Tests (1 class)</span>
+                <span class="test-name">Registration Tests (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -300,40 +387,72 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(15);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testSignInWithBlankPassword')
-data.setCell(0, 2, 'tests.SigninTests')
-data.setCell(0, 3, 1);
+data.setCell(0, 1, 'verifyValidPythonCodeExecutionInStackTryEditor')
+data.setCell(0, 2, 'tests.StackTests')
+data.setCell(0, 3, 114368);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testSignInWithInvalidUsernameAndValidPassword')
-data.setCell(1, 2, 'tests.SigninTests')
-data.setCell(1, 3, 0);
+data.setCell(1, 1, 'verifyUserCanAccessTryEditorInOperationsInStack')
+data.setCell(1, 2, 'tests.StackTests')
+data.setCell(1, 3, 62984);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testSignInWithBlankUsername')
-data.setCell(2, 2, 'tests.SigninTests')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'verifyInvalidPythonCodeExecutionInStackTryEditor')
+data.setCell(2, 2, 'tests.StackTests')
+data.setCell(2, 3, 61989);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testSignInWithBlankUsernameAndPassword')
-data.setCell(3, 2, 'tests.SigninTests')
-data.setCell(3, 3, 0);
+data.setCell(3, 1, 'testUserRegistration')
+data.setCell(3, 2, 'tests.RegisterTests')
+data.setCell(3, 3, 26657);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testSignInWithInvalidUsernameAndPassword')
-data.setCell(4, 2, 'tests.SigninTests')
-data.setCell(4, 3, 0);
+data.setCell(4, 1, 'verifyUserCanNavigateToPracticeQuestionsPage')
+data.setCell(4, 2, 'tests.StackTests')
+data.setCell(4, 3, 6041);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testSignInWithValidUsernameAndInvalidPassword')
-data.setCell(5, 2, 'tests.SigninTests')
-data.setCell(5, 3, 0);
+data.setCell(5, 1, 'verifyUserCanNavigateToOperationsInStack')
+data.setCell(5, 2, 'tests.StackTests')
+data.setCell(5, 3, 4781);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testSignInWithValidUsernameAndPassword')
-data.setCell(6, 2, 'tests.SigninTests')
-data.setCell(6, 3, 0);
+data.setCell(6, 1, 'verifyUserCanNavigateToApplicationsPage')
+data.setCell(6, 2, 'tests.StackTests')
+data.setCell(6, 3, 3358);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyUserCanNavigateToImplementationPage')
+data.setCell(7, 2, 'tests.StackTests')
+data.setCell(7, 3, 2794);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSignInWithValidUsernameAndPassword')
+data.setCell(8, 2, 'tests.SigninTests')
+data.setCell(8, 3, 2281);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testSignInWithInvalidUsernameAndPassword')
+data.setCell(9, 2, 'tests.SigninTests')
+data.setCell(9, 3, 1782);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSignInWithValidUsernameAndInvalidPassword')
+data.setCell(10, 2, 'tests.SigninTests')
+data.setCell(10, 3, 1685);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testSignInWithInvalidUsernameAndValidPassword')
+data.setCell(11, 2, 'tests.SigninTests')
+data.setCell(11, 3, 1572);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSignInWithBlankPassword')
+data.setCell(12, 2, 'tests.SigninTests')
+data.setCell(12, 3, 1104);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSignInWithBlankUsername')
+data.setCell(13, 2, 'tests.SigninTests')
+data.setCell(13, 3, 944);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testSignInWithBlankUsernameAndPassword')
+data.setCell(14, 2, 'tests.SigninTests')
+data.setCell(14, 3, 572);
 window.suiteTableData['Registration_Tests_Suite']= { tableData: data, tableDiv: 'times-div-Registration_Tests_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 ms</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Registration_Tests_Suite">
               </div> <!-- times-div-Registration_Tests_Suite -->
             </div> <!-- times-div -->
@@ -359,69 +478,227 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.SigninTests</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
+              <div class="chronological-class-name">tests.RegisterTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">setup</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
+                <span class="method-name">testUserRegistration(http://dsportalapp.herokuapp.com/, nuhasdfnh, tzynumhim)</span>
+                <span class="method-start">7295 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34000 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SigninTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">navigateToSignInPage</span>
-                <span class="method-start">206 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">34119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39908 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSignInWithBlankPassword</span>
-                <span class="method-start">225 ms</span>
+                <span class="method-start">61915 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63041 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">navigateToSignInPage</span>
-                <span class="method-start">240 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">63156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">69100 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSignInWithBlankUsername</span>
-                <span class="method-start">244 ms</span>
+                <span class="method-start">88179 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89130 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">navigateToSignInPage</span>
-                <span class="method-start">257 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">89229 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">94188 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSignInWithBlankUsernameAndPassword</span>
-                <span class="method-start">259 ms</span>
+                <span class="method-start">112703 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">113281 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">navigateToSignInPage</span>
-                <span class="method-start">296 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">113386 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">118309 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSignInWithInvalidUsernameAndPassword</span>
-                <span class="method-start">303 ms</span>
+                <span class="method-start">142102 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">143891 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">navigateToSignInPage</span>
-                <span class="method-start">319 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">143979 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">148877 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSignInWithInvalidUsernameAndValidPassword</span>
-                <span class="method-start">323 ms</span>
+                <span class="method-start">167882 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">169464 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">navigateToSignInPage</span>
-                <span class="method-start">334 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">169559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">174624 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSignInWithValidUsernameAndInvalidPassword</span>
-                <span class="method-start">337 ms</span>
+                <span class="method-start">195450 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">197142 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">navigateToSignInPage</span>
-                <span class="method-start">350 ms</span>
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">197238 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">202259 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSignInWithValidUsernameAndPassword</span>
-                <span class="method-start">354 ms</span>
+                <span class="method-start">222699 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">224982 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.StackTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">225076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidPythonCodeExecutionInStackTryEditor</span>
+                <span class="method-start">255677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">317679 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">317787 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserCanAccessTryEditorInOperationsInStack</span>
+                <span class="method-start">350050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">413039 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">413143 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserCanNavigateToApplicationsPage</span>
+                <span class="method-start">443567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">446928 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">447024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserCanNavigateToImplementationPage</span>
+                <span class="method-start">477102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">479898 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">479985 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserCanNavigateToOperationsInStack</span>
+                <span class="method-start">505584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">510372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">510462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserCanNavigateToPracticeQuestionsPage</span>
+                <span class="method-start">538184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">544235 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">544326 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidPythonCodeExecutionInStackTryEditor</span>
+                <span class="method-start">570714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">685090 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

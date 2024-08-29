@@ -1,0 +1,1 @@
+{"uuid":"fd54dbb3-7ef4-4fac-9cd5-cd9c4873b495","name":"tests.StackTests.setUp","children":["66d9c56d-6ebd-4779-b657-e5079bf3e134"],"description":"","befores":[{"name":"setUp","status":"broken","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1724922929535,"stop":1724922929536}],"afters":[],"start":1724922929535,"stop":1724922929536}

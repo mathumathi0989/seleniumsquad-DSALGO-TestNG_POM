@@ -4,19 +4,14 @@
   <test thread-count="5" name="Registration Tests(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.SigninTests">
+      <class name="tests.RegisterTests">
         <methods>
-          <include name="testSignInWithInvalidUsernameAndValidPassword"/>
-          <include name="testSignInWithBlankUsernameAndPassword"/>
-          <include name="testSignInWithValidUsernameAndInvalidPassword"/>
-          <include name="testSignInWithBlankPassword"/>
-          <include name="setup"/>
-          <include name="testSignInWithBlankUsername"/>
-          <include name="navigateToSignInPage"/>
-          <include name="testSignInWithValidUsernameAndPassword"/>
-          <include name="testSignInWithInvalidUsernameAndPassword"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="testUserRegistration" invocation-numbers="0"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- tests.SigninTests -->
+      </class> <!-- tests.RegisterTests -->
     </classes>
   </test> <!-- Registration Tests(failed) -->
 </suite> <!-- Failed suite [Registration Tests Suite] -->

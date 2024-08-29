@@ -1,0 +1,1 @@
+{"uuid":"8f008152-7074-4532-9dc3-f11b01c1448b","name":"dsalgoPOM.BaseTest.tearDown","children":["5df6dd75-709b-4431-a405-b27152527d59"],"description":"","befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1724919841967,"stop":1724919842061}],"start":1724919841967,"stop":1724919842061}

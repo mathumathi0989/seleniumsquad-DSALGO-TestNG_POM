@@ -1,7 +1,5 @@
 package dsalgoPOM;
 
-
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -12,17 +10,20 @@ import utilities.DriverManager;
 
 public class BaseTest {
 
-	public WebDriver driver;
-	 @Parameters("browser")
-	    @BeforeMethod
-	    public void setUp(String browser) {
-	        DriverManager.initializeDriver(browser);
-	        driver = DriverManager.getDriver(); // Use class-level driver
-	        driver.get(ConfigReader.getProperty("url"));
-	    }
+	protected WebDriver driver;
 
-	    @AfterMethod
-	    public void tearDown() {
-	        DriverManager.quitDriver();
-	    }
+	@Parameters("browser")
+	@BeforeMethod
+	public void setUp(String browser) {
+	    DriverManager.initializeDriver(browser);
+	    driver = DriverManager.getDriver();
+	}
+
+    @AfterMethod
+    public void tearDown() {
+        if (driver != null) {
+            DriverManager.quitDriver();
+        }
+    }
+
 }
